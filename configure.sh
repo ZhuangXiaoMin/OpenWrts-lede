@@ -2,7 +2,7 @@
 # Modify default system settings
 
 # 修改默认IP为10.8.101.250
-sed -i 's/10.8.101.250/10.8.101.254/g' package/base-files/files/bin/config_generate 
+sed -i 's/192.168.1.1/10.8.101.250/g' package/base-files/files/bin/config_generate 
 
 # Hello World
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
